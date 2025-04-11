@@ -1,6 +1,9 @@
-let numero = 1;
+let numero = 0;
 
-while (numero < 11){
-    console.log(numero);
-    numero++;
+console.log("Os números impares de 0 a 15 são:")
+while (numero <= 15){
+    numero++
+    if (numero % 2 !== 0){
+        console.log(numero)
+    }
 }
